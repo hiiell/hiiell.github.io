@@ -437,3 +437,15 @@ button:hover {
 }
 
 /*projcet end*/
+
+footer {
+  /*color: white;*/
+  padding-top: 10%;
+  text-align: left;
+  font-size: 10px;
+}   
+
+.col-one footer p {
+  border-bottom: none;
+  color: #555555;
+}
