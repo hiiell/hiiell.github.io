@@ -19,7 +19,7 @@
 
     --primary-background: #111111;
     --primary-shadow: rgba(0, 0, 0, 0.2);
-    --primary-text: #ffffff;
+    --primary-text: rgb(204, 204, 204);
     --primary-line: rgb(46, 46, 46, 0.4);
 
     --secondary-text: #111111;
@@ -328,12 +328,14 @@ button:hover {
 /* PROJECT */
 
 .project-timeline,
-.experience-timeline{
+.experience-timeline,
+.education-timeline {
     padding-top: 0.65rem;
 }
 
 .project-link,
-.experience.link {
+.experience.link,
+.education-link {
     display: flex;
     /*justify-content: space-between;*/
     gap: 1%;
@@ -344,7 +346,8 @@ button:hover {
 }
 
 .project-timeline a,
-.experience-timeline a {
+.experience-timeline a,
+.education-timeline a{
     /*text-decoration: none;*/
     /*color: var(--primary-text);*/
     font-family: var(--body-font-family);
@@ -356,14 +359,16 @@ button:hover {
 }
 
 .project-timeline p,
-.experience-timeline p{
+.experience-timeline p,
+.education-timeline p{
     padding-top: 0.3rem;
     font-size: 12px;
     border-bottom: none;
 }
 
 .project-link a:hover,
-.experience-link a:hover {
+.experience-link a:hover,
+.education-link a:hover {
     color: var(--color-system);
 }
 
@@ -371,19 +376,22 @@ button:hover {
 
 
 .project-title,
-.experience-title{
+.experience-title,
+.education-title {
     padding-top: 1.3rem;
     padding-bottom: 0.3rem;
 }
 
 .project-title p,
-.experience-title {
+.experience-title p,
+.education-title p{
     /*padding-bottom: 1.3rem;*/
     border-bottom: none;
 }
 
 .project-title,
-.experience-title {
+.experience-title,
+.education-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -396,15 +404,18 @@ button:hover {
 }
 
 .project-title span,
-.experience-title span{
+.experience-title span,
+.education-title span{
     /*background: aqua;*/
     font-family: var(--body-font-family);
     font-size: 0.87rem;
+
     font-weight: bold;
 }
 
 .project-title time,
-.experience-title time {
+.experience-title time,
+.education-title time{
     /*color: var(--primary-text);*/
     font-family: var(--body-font-family);
     font-size: 0.76rem;
@@ -412,12 +423,15 @@ button:hover {
     color: var(--muted-text);
 }
 
-.experience-link p {
+.experience-link p,
+.education-link p {
     color: var(--muted-text);
-    
+
 }
 
-.experience-border {
+.experience-border,
+.education-border,
+.education-border {
     padding-top: 1.3rem;
     border-bottom: 1.9px solid var(--primary-line);
 }
