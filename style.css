@@ -332,7 +332,8 @@ button:hover {
     padding-top: 0.65rem;
 }
 
-.project-link{
+.project-link,
+.experience.link {
     display: flex;
     /*justify-content: space-between;*/
     gap: 1%;
@@ -342,7 +343,8 @@ button:hover {
     font-family: var(--body-font-family);
 }
 
-.project-timeline a{
+.project-timeline a,
+.experience-timeline a {
     /*text-decoration: none;*/
     /*color: var(--primary-text);*/
     font-family: var(--body-font-family);
@@ -353,27 +355,32 @@ button:hover {
     color: var(--muted-text);
 }
 
-.project-timeline p {
+.project-timeline p,
+.experience-timeline p{
     padding-top: 0.3rem;
     font-size: 12px;
     border-bottom: none;
 }
 
-.project-link a:hover {
+.project-link a:hover,
+.experience-link a:hover {
     color: var(--color-system);
 }
 
-.project-title {
+.project-title,
+.experience-title{
     padding-top: 1.3rem;
     padding-bottom: 0.3rem;
 }
 
-.project-title p{
+.project-title p,
+.experience-title {
     /*padding-bottom: 1.3rem;*/
     border-bottom: none;
 }
 
-.project-title{
+.project-title,
+.experience-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -385,14 +392,16 @@ button:hover {
     /*border-bottom: 1.9px solid var(--primary-line);*/
 }
 
-.project-title span{
+.project-title span,
+.experience-title span{
     /*background: aqua;*/
     font-family: var(--body-font-family);
     font-size: 0.87rem;
     font-weight: bold;
 }
 
-.project-title time{
+.project-title time,
+.experience-title time {
     /*color: var(--primary-text);*/
     font-family: var(--body-font-family);
     font-size: 0.76rem;
@@ -400,13 +409,6 @@ button:hover {
     color: var(--muted-text);
 }
 
-.project-end{
-    /*padding-bottom: 11rem;*/
-}
-
-.desc p {
-    font-size: 0.7rem;
-}
 
 
 
