@@ -323,7 +323,12 @@ button:hover {
     animation: glow-out 0.8s ease-out forwards;
 }*/
 
-.project-timeline {
+
+
+/* PROJECT */
+
+.project-timeline,
+.experience-timeline{
     padding-top: 0.65rem;
 }
 
@@ -348,27 +353,27 @@ button:hover {
     color: var(--muted-text);
 }
 
+.project-timeline p {
+    padding-top: 0.3rem;
+    font-size: 12px;
+    border-bottom: none;
+}
+
 .project-link a:hover {
     color: var(--color-system);
 }
 
-.project-start,
-.project-dur,
-.project-end{
+.project-title {
     padding-top: 1.3rem;
     padding-bottom: 0.3rem;
 }
 
-.project-start p,
-.project-end p,
-.project-dur p{
+.project-title p{
     /*padding-bottom: 1.3rem;*/
     border-bottom: none;
 }
 
-.project-start,
-.project-dur,
-.project-end {
+.project-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -380,18 +385,14 @@ button:hover {
     /*border-bottom: 1.9px solid var(--primary-line);*/
 }
 
-.project-start span,
-.project-end span,
-.project-dur span{
+.project-title span{
     /*background: aqua;*/
     font-family: var(--body-font-family);
     font-size: 0.87rem;
     font-weight: bold;
 }
 
-.project-start time,
-.project-dur time,
-.project-end time{
+.project-title time{
     /*color: var(--primary-text);*/
     font-family: var(--body-font-family);
     font-size: 0.76rem;
@@ -403,7 +404,10 @@ button:hover {
     /*padding-bottom: 11rem;*/
 }
 
-.experience-timeline {
-    padding-top: 0.65rem;
-    border-top: 1.9px solid var(--primary-line);
-    /*background: aqua;*/}
+.desc p {
+    font-size: 0.7rem;
+}
+
+
+
+/*projcet end*/
