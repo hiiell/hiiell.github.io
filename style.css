@@ -367,6 +367,9 @@ button:hover {
     color: var(--color-system);
 }
 
+
+
+
 .project-title,
 .experience-title{
     padding-top: 1.3rem;
@@ -409,7 +412,11 @@ button:hover {
     color: var(--muted-text);
 }
 
+.experience-link p {
+    color: var(--muted-text);
+    
+}
 
-
+.experience-border
 
 /*projcet end*/
