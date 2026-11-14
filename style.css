@@ -417,6 +417,9 @@ button:hover {
     
 }
 
-.experience-border
+.experience-border {
+    padding-top: 1.3rem;
+    border-bottom: 1.9px solid var(--primary-line);
+}
 
 /*projcet end*/
