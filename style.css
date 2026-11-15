@@ -418,7 +418,7 @@ button:hover {
 .education-title time{
     /*color: var(--primary-text);*/
     font-family: var(--body-font-family);
-    font-size: 0.76rem;
+    font-size: 0.76rem; 
 
     color: var(--muted-text);
 }
