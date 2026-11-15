@@ -524,31 +524,10 @@ footer {
 
 @media (max-width: 768px) {
 
-    .two-column {
-        grid-template-columns: minmax(0, 1fr);
-        margin-left: 5%;
-        margin-right: 5%;
-        gap: 1.5rem;
-    }
-
-    .col-two {
-        justify-self: start;
-        width: 100%;
-    }
-
-    footer {
-        border-bottom: 1.9px solid var(--primary-line);
-        padding-bottom: 0.7rem;
-        
-    }
-    
-    .col-two-layout {
-        padding-top: 1.7rem;
-        grid-template-columns: 8rem minmax(0, 1fr);
-    }
-
     .title h1 {
+        /*background: aqua;*/
         width: 90%;
+        padding-bottom: 2%;
         font-size: clamp(1.8rem, 7vw, 2.5rem);
         margin-top: 4%;
     }
@@ -581,4 +560,82 @@ footer {
         font-size: 0.8rem;
         white-space: nowrap;
     }
+    
+
+    .two-column {
+        grid-template-columns: minmax(0, 1fr);
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 1.5rem;
+    }
+
+    .col-one h {
+        font-size: clamp(1.7, 5vw, 2.5rem);
+    }
+
+    .col-one p {
+        font-size: 0.95rem;
+    }
+
+    .col-one h3 {
+        font-size: 1.15rem;
+    }
+
+    .col-two {
+        justify-self: start;
+        width: 100%;
+    }
+
+    .col-two-layout {
+        padding-top: 1.7rem;
+        grid-template-columns: 8rem minmax(0, 1fr);
+    }
+
+    .col-one,
+    .col-two {
+        min-width: 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    /*zmxcnanadsjoqwijekasdn*/
+    
+    
+    .project-title,
+    .experience-title,
+    .education-title {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .project-title span,
+    .experience-title span,
+    .education-title span {
+        font-size: 0.85rem;
+    }
+    
+    .project-title time,
+    .experience-title time,
+    .education-title time {
+        font-size: 0.7rem;
+    }
+    
+    .project-timeline p,
+    .experience-timeline p,
+    .education-timeline p {
+        font-size: 0.85rem;
+    }
+
+
+    /**/
+    
+    footer {
+        border-bottom: 1.9px solid var(--primary-line);
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+        
+    }
+    
 }
