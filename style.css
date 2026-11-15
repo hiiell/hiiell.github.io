@@ -305,12 +305,19 @@ button:hover {
 
 .text-label {
     color: var(--label-text);
+    padding-top: 0.65rem;
+}
+
+.muted-label {
+    color: var(--muted-text);
+    font-size: 10px;
+    padding-top: 0.325rem;
 }
 
 .link-text {
     color: var(--primary-text);
-    text-decoration: none;
-    font-size: 12.4px;
+    /*text-decoration: none;*/
+    font-size: 12px;
 }
 
 .link-text:where(:hover, :focus-visible) {
