@@ -124,7 +124,8 @@ button:not(:hover)
 .theme-toggle:where(:hover, :focus-visible) {
     background-size: 100% var(--bg-h);
     background-position-x: left;
-    color: var(--color-system);}
+    color: var(--color-system);
+}
 
 .title h1 {
     width: 77%;
@@ -296,6 +297,7 @@ button:hover {
   background-position-x: left;
 }
 
+
 /**/
 
 .hero-container {
@@ -323,9 +325,14 @@ button:hover {
 }
 
 .link-text:where(:hover, :focus-visible) {
-  color: var(--secondary-text);
+    color: var(--secondary-text);
   /*background-size: 100% var(--bg-h);*/
   /*background-position-x: left;*/
+}
+
+.currently-desc {
+    color: var(--primary-text);
+    font-size: 12px;
 }
 
 /*.link-text a:hover {
