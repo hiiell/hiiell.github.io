@@ -80,3 +80,6 @@ themeToggle.addEventListener("click", () => {
 
 document.body.dataset.theme = currentTheme;
 updateThemeLabel();
+
+// alert("hello worold");
+
