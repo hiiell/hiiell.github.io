@@ -316,6 +316,7 @@ button:hover {
     font-size: 10px;
     padding-top: 0.325rem;
     padding-bottom: 1rem;
+    
 }
 
 .link-text {
@@ -335,6 +336,7 @@ button:hover {
     font-size: 12px;
 }
 
+ 
 /*.link-text a:hover {
     animation: glow-out 0.8s ease-out forwards;
 }*/
