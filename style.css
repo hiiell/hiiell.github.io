@@ -9,7 +9,9 @@
     padding: 0;
     box-sizing: border-box;
     /*font-family: "Redaction 50", serif;*/
+    /*outline: 1px solid aqua;*/
 }
+
 
 :root {
 
@@ -125,6 +127,7 @@ button:not(:hover)
     background-size: 100% var(--bg-h);
     background-position-x: left;
     color: var(--color-system);
+    /*align-items: center;*/
 }
 
 .title h1 {
@@ -263,7 +266,9 @@ button:not(:hover)
 
 .col-two img {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    
+    /*width: 100%;*/
     height: auto;
     margin: 0 auto 5%;
     border-radius: 5px;
@@ -635,7 +640,63 @@ footer {
         border-bottom: 1.9px solid var(--primary-line);
         padding-bottom: 1rem;
         padding-top: 2rem;
+        /*font-size: 1rem;*/
+        /*background: aqua;*/
+        /*font-size: 1px;*/
+        
         
     }
     
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .title h1 {
+        width: 85%;
+    }
+
+    .nav-row {
+        width: 85%;
+    }
+
+    .two-column {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        gap: 2rem;
+        grid-template-columns: minmax(0, 1fr) minmax(12rem, 0.6fr);
+    }
+
+    .col-two {
+        width: 100%;
+    }
+
+}
+
+/*landspace*/
+
+@media (min-width: 769px) and (orientation: landscape) {
+
+    .col-two-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1rem;
+    }
+
+    .col-two .hero-container {
+        width: 100%;
+    }
+
+    .currently-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1rem;
+        
+    }
+
+}
+
+
+/**/
+@media (max-width: 1023px) {
+    .col-one footer .last-updated {
+        font-size: 0.65rem;
+    }
 }
