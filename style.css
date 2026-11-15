@@ -516,12 +516,26 @@ footer {
   padding-top: 10%;
   text-align: left;
   font-size: 10px;
+  /*display: flex;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--label-text);
 }
 
 .col-one footer p {
   border-bottom: none;
   color: #555555;
 }
+
+.bottom-lable {
+    display: flex;
+}
+
+.bottom-lable .special {
+    font-size: 1.3rem;
+}
+
 
 /*responsif*/
 
