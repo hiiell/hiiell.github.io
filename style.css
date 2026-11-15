@@ -552,4 +552,33 @@ footer {
         font-size: clamp(1.8rem, 7vw, 2.5rem);
         margin-top: 4%;
     }
+
+    .nav-row {
+        width: 90%;
+        margin-bottom: 2rem;
+        gap: 8px;
+    }
+
+    .navbar {
+     width: auto;   
+     margin: 0;
+     padding: 10px 0;
+     gap: clamp(8px, 3vw, 16px);
+     flex-wrap: wrap;
+     justify-content: flex-start;
+    }
+
+    /**/
+    
+    .theme-toggle,
+    .lang-toggle {
+        min-width: auto;
+        padding: 8px 10px;
+        font-size: 0.75rem;
+    }
+
+    .navbar a {
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
 }
