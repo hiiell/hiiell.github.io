@@ -299,19 +299,21 @@ button:hover {
 /**/
 
 .hero-container {
-    padding-bottom: 1.3rem;
+    padding-bottom: 0.1rem;
     border-bottom: 1.9px solid var(--primary-line);
 }
 
 .text-label {
     color: var(--label-text);
     padding-top: 0.65rem;
+    font-size: 10px;
 }
 
 .muted-label {
     color: var(--muted-text);
     font-size: 10px;
     padding-top: 0.325rem;
+    padding-bottom: 1rem;
 }
 
 .link-text {
