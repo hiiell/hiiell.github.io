@@ -521,6 +521,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   color: var(--label-text);
+  font-family: var(--body-font-family);
 }
 
 .col-one footer p {

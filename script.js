@@ -1,6 +1,11 @@
 console.log("tes")
 
 
+function unfinished() {
+  alert("unfinished yet");
+}
+
+
 // versi lang + themeswitch
 
 // const translation = {
