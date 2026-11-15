@@ -267,7 +267,7 @@ button:not(:hover)
 .col-two img {
     display: block;
     max-width: 100%;
-    
+
     /*width: 100%;*/
     height: auto;
     margin: 0 auto 5%;
@@ -371,7 +371,7 @@ button:hover {
 .link-text {
     color: var(--primary-text);
     /*text-decoration: none;*/
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .link-text:where(:hover, :focus-visible) {
@@ -544,7 +544,7 @@ footer {
     }
 
     .navbar {
-     width: auto;   
+     width: auto;
      margin: 0;
      padding: 10px 0;
      gap: clamp(8px, 3vw, 16px);
@@ -553,7 +553,7 @@ footer {
     }
 
     /**/
-    
+
     .theme-toggle,
     .lang-toggle {
         min-width: auto;
@@ -565,7 +565,7 @@ footer {
         font-size: 0.8rem;
         white-space: nowrap;
     }
-    
+
 
     .two-column {
         grid-template-columns: minmax(0, 1fr);
@@ -606,27 +606,27 @@ footer {
     }
 
     /*zmxcnanadsjoqwijekasdn*/
-    
-    
+
+
     .project-title,
     .experience-title,
     .education-title {
         gap: 10px;
         flex-wrap: wrap;
     }
-    
+
     .project-title span,
     .experience-title span,
     .education-title span {
         font-size: 0.85rem;
     }
-    
+
     .project-title time,
     .experience-title time,
     .education-title time {
         font-size: 0.7rem;
     }
-    
+
     .project-timeline p,
     .experience-timeline p,
     .education-timeline p {
@@ -635,7 +635,7 @@ footer {
 
 
     /**/
-    
+
     footer {
         border-bottom: 1.9px solid var(--primary-line);
         padding-bottom: 1rem;
@@ -643,10 +643,10 @@ footer {
         /*font-size: 1rem;*/
         /*background: aqua;*/
         /*font-size: 1px;*/
-        
-        
+
+
     }
-    
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -688,7 +688,7 @@ footer {
     .currently-grid {
         grid-template-columns: minmax(0, 1fr);
         gap: 1rem;
-        
+
     }
 
 }
