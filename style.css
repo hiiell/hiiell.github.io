@@ -810,8 +810,8 @@ footer {
     gap: 6px;
     padding: 8px 16px;
     border-radius: 999px;
-    background: #ff6fa8;
-    color: #ffffff;
+    background: var(--color-system);
+    color: var(--primary-background);
     font-size: 0.85rem;
     text-decoration: none;
     transition: filter 0.3s ease;
@@ -820,7 +820,7 @@ footer {
 }
 
 .project-card-btn:hover {
-    filter: brightness(1.1);
+    filter: brightness(0.6);
 }
 
 .project-card-btn .btn-icon {
