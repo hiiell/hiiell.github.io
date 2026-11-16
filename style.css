@@ -748,13 +748,28 @@ footer {
     /*border-bottom: 1.9px solid var(--primary-line);*/
 }
 
-.project-card-image img {
+.project-card-image {
+    overflow: hidden;
+    border: black;
+    border-radius: 5px;
+}
+
+.project-card-image img{
     display: block;
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
     border-radius: 5px;
+    transition: transform 0.3s ease;
+    /*border: #2878ff;*/
+    /*border: 1px solid var(--color-system);*/
 }
+
+.project-card-image img:hover {
+    transform: scale(1.05);
+}
+
+
 
 .project-card-body {
     display: flex;
@@ -832,7 +847,16 @@ footer {
         margin: 0 5%;
     }
 
-    .projects-card {
+    .project-card {
         grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    .project-card-image {
+        width: 100%;
+    }
+
+    .project-card-body {
+        gap: 8px;
     }
 }
