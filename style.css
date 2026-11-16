@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 /*@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');*/
 
+html {
+    scrollbar-gutter: stable;
+}
+
 /*Margin atas bawah tiap garis 5%*/
 
 * {
@@ -713,5 +717,122 @@ footer {
 @media (max-width: 1023px) {
     .col-one footer .last-updated {
         font-size: 0.65rem;
+    }
+}
+
+
+/*      project.html dibawha     */
+
+.projects-page {
+    margin: 0 15%;
+    padding: 10px 10px 40px;
+}
+
+.projects-header h1 {
+    /*font-family: var(--header-3-font-family, "Source Serif 4", serif);*/
+    /*font-size: 1.1rem;*/
+    /*font-weight: 600;*/
+    /*color: var(--primary-text);*/
+    /*padding-bottom: 14px;*/
+    /*margin-bottom: 20px;*/
+    /*border-bottom: 1.9px solid var(--primary-line);*/
+    padding-bottom: 1.9rem;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+    gap: 20px;
+    align-items: start;
+    padding: 12px 0;
+    /*border-bottom: 1.9px solid var(--primary-line);*/
+}
+
+.project-card-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 0;
+}
+
+.project-card-title {
+    font-family: var(--body-font-family, "Figtree", sans-serif);
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.project-card-title a {
+    color: var(--primary-text);
+    text-decoration: underline;
+    text-decoration-color: var(--muted-text);
+    transition: color 0.3s ease;
+}
+
+.project-card-title a:hover {
+    color: var(--color-system);
+}
+
+.project-card-desc {
+    font-family: var(--body-font-family, "Figtree", sans-serif);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--primary-text);
+}
+
+.project-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.project-card-tags span {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+    border: 1px solid var(--primary-line);
+    border-radius: 3px;
+    color: var(--muted-text);
+    font-family: var(--body-font-family, "Figtree", sans-serif);
+
+}
+
+.project-card-btn {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: #ff6fa8;
+    color: #ffffff;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: filter 0.3s ease;
+    font-family: var(--body-font-family, "Figtree", sans-serif);
+
+}
+
+.project-card-btn:hover {
+    filter: brightness(1.1);
+}
+
+.project-card-btn .btn-icon {
+    font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+    .projects-page {
+        margin: 0 5%;
+    }
+
+    .projects-card {
+        grid-template-columns: minmax(0, 1fr);
     }
 }
