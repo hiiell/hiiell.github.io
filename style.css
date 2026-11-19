@@ -854,6 +854,7 @@ footer {
 
     .project-card-image {
         width: 100%;
+        aspect-ratio: 16 / 9;
     }
 
     .project-card-body {
